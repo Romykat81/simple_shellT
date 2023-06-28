@@ -167,7 +167,7 @@ char *err_exit(my_shell *data);
 char *env_err(my_shell *data);
 char *path_err(my_shell *data);
 int _error(my_shell *data, int e);
-int syntax_err(my_shell *data, char *in);
+void syntax_errors(my_shell *data, char *in);
 char *alias_err(char **args);
 
 /*exit.c*/
